@@ -17,4 +17,8 @@ node-modules
 
 method-override
 
+nodemon
+
+copy the depencies as they are on my packge.json
+
 run on browers with localhost:3000
