@@ -1,0 +1,31 @@
+{
+    "name": "login_reg",
+    "version": "1.0.0",
+    "description": "A log in and reg page for FeedByMe Take Home Code Test",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "man": "man"
+    },
+    "scripts": {
+        "node-start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "FeedByMe_LogIn_Reg"
+    },
+    "author": "Prashanna Kandel",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^3.0.6",
+        "ejs": "^2.6.2",
+        "express": "^4.17.1",
+        "express-flash": "0.0.2",
+        "express-session": "^1.16.2",
+        "method-override": "^3.0.0",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "dotenv": "^8.0.0",
+        "nodemon": "^1.19.1"
+    }
+}
