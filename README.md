@@ -7,10 +7,14 @@ Express
 
 ejs
 
+dotenv
+
 passpot
 
 passport-local
 
 node-modules
+
+method-override
 
 run on browers with localhost:3000
