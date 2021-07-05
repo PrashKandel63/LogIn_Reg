@@ -1,0 +1,28 @@
+<h1>Hello
+    <%= name %>
+</h1>
+<form action="/logout?_method=DELETE" method="POST">
+    <button type="submit">Log Out</button>
+</form>
+<input type="button" id="show_user" value="Show User Details" onclick="Javascript:addUser()">
+<table id="userTable" cellpadding="2">
+    <tr>
+        <td>&nbsp;</td>
+        <td><b>Name</b></td>
+        <td><b>Email</b></td>
+        <td><b>Mobile Number</b></td>
+    </tr>
+</table>
+<script>
+function addUser(){
+    var name = document.getElementByID("name");
+    var email = document.getElementByID("email");
+    var number = document.getElementByID("number");
+    var table = document.getElementByID("userTable");
+    var rowCount = table.rows.lenght;
+    var row = table.insertRow(rowCount);
+    row.inserCell(0).innerHTML = name.value;
+    row.inserCell(1).innerHTML = email.value;
+    row.inserCell(2).innerHTML = number.value;
+}
+</script>
