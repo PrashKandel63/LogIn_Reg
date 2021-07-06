@@ -1,5 +1,5 @@
 # LogIn_Reg
-A Log In and Registration page made with node.js using passport for the FeedByMe take home code test.
+A Log In and Registration page made with node.js using passport.
 
 Thing you need to install with npm for this work are:
 
